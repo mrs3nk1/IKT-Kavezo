@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kávézó</title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: burlywood;
+  color: olive;
+  padding: 20px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: olivedrab;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: lightgray;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  color: olivedrab;
+}
+
+.card {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.card img {
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: olivedrab;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #555;
+}
+footer {
+  background-color: burlywood;
+  color: olivedrab;
+  padding: 40px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left, .right {
+  flex-basis: 45%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: olivedrab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  background-color: burlywood;
+  padding: 20px;
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <h1 style="color: olivedrab;" >Lucky Kávézó</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Kezdőlap</a></li>
+          <li><a href="#">Menü</a></li>
+          <li><a href="#">Rólunk</a></li>
+          <li><a href="#">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Kávéfajták</h2>
+      <div class="card">
+        <img src="coffee-ge64e5c7ce_1920.jpg" alt="Kávé 1">
+        <h3>Latte</h3>
+        <p>Leírás</p>
+        <button>Részletek</button>
+      </div>
+      <div class="card">
+        <img src="coffee-gfbe4d0c44_1920.jpg" alt="Kávé 2">
+        <h3>Americano</h3>
+        <p>Leírás</p>
+        <button>Részletek</button>
+      </div>
+      <div class="card">
+        <img src="cappuccino-g83a68ef59_1920.jpg" alt="Kávé 3">
+        <h3>Espresso</h3>
+        <p>Leírás</p>
+        <button>Részletek</button>
+      </div>
+      <div class="card">
+        <img src="latte-macchiato-g2a8a8d303_1920.jpg" alt="Kávé 4">
+        <h3>Machiatto</h3>
+        <p>Leírás</p>
+        <button>Részletek</button>
+      </div>
+    </main>
+    
+
+</body>
+<footer>
+    <div class="wrapper">
+      <div class="left">
+        <h3>Elérhetőségeink</h3>
+        <ul>
+          <li>Cím: 1234 Budapest, Példa utca 1.</li>
+          <li>Telefon: +36 1 234 5678</li>
+          <li>E-mail: info@kavezo.hu</li>
+        </ul>
+      </div>
+      <div class="right">
+        <h3>Hasznos linkek</h3>
+        <ul>
+          <li><a href="#">Rólunk</a></li>
+          <li><a href="#">Hírek</a></li>
+          <li><a href="#">Menü</a></li>
+          <li><a href="#">Galéria</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>&copy; 2023 Kávézó | Minden jog fenntartva.</p>
+    </div>
+  </footer>
+  
+</html>

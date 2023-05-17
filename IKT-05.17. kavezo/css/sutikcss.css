@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  header {
+    background-color: burlywood;
+    color: olive;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: olivedrab;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: lightgray;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    color: olivedrab;
+    background-image: url("../kep/hatter2.jpg")
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card img {
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: olivedrab;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .card button:hover {
+    background-color: #555;
+  }
+  footer {
+    background-color: burlywood;
+    color: olivedrab;
+    padding: 40px 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .left, .right {
+    flex-basis: 45%;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  a {
+    color: olivedrab;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .bottom {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+  }
+  .left{
+	margin-left: 20px;
+  }
